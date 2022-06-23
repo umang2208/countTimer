@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link id="pagestyle" rel="stylesheet" type="text/css" href="default.css">
+<script>
+function swapStyleSheet(sheet){
+	document.getElementById('pagestyle').setAttribute('href', sheet);
+}
+</script>
+</head>
+<body>
+<h2>Javascript Change StyleSheet Without Page Reload</h2>
+<button onclick="swapStyleSheet('dark.css')">Dark Style Sheet</button>
+<button onclick="swapStyleSheet('blue.css')">Blue Style Sheet</button>
+<button onclick="swapStyleSheet('default.css')">Default Style Sheet</button>
+</body>
+</html>
